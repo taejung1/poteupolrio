@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&display=swap');
+
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+    border-radius: 5px;
+}
+
+
+.title {
+    font-size: 4.5rem;
+}
+
+.copyright {
+	margin-top: 0;
+	white-space: nowrap;
+	opacity: 0.7;
+}
+
+.main_title {
+    font-size: 11rem;
+}
+
+
+.span {
+    font-size: 6rem;
+}
+
+
+#projects{
+    background: #292b2f;
+    color: white;
+}
+.skill2 {
+    font-size: 1rem;
+}
+
+
+
+.title {
+    font-size: 6rem;
+}
+
+
+.project2 {
+    font-size: 6rem;
+}
+
+
+
+.center_con {
+    margin: 5%;
+}
+
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    scroll-snap-align: center;
+}
+
+html {
+    scrollbar-width:none;
+}
+
+body {
+    font-family: "BMJUA";
+    margin: 0;
+    user-select: none;
+    background: #EEEDEB;
+    overflow: auto;
+}
+
+#main {
+    height: 100vh;
+    overflow: auto; 
+     scroll-snap-type: y mandatory;
+}
+
+#start {
+    background: #292b2f;
+    color: white;
+}
+
